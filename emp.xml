@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE company [
+    <!ELEMENT company (employee+)>
+    <!ELEMENT employee (name,id,department,address?)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT department (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+]>
+<company>
+    <employee>
+        <name>Ravi</name>
+        <id>E101</id>
+        <department>IT</department>
+        <address>Madurai</address>
+    </employee>
+    <employee>
+        <name>Priya</name>
+        <id>E102</id>
+        <department>HR</department>
+    </employee>
+</company>
